@@ -1,0 +1,35 @@
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* CTA button glow */
+.cta-glow {
+    box-shadow: 0 0 15px rgba(52, 211, 153, 0.7); /* Tailwind green-500 equivalent */
+}
+
+/* Fixed background support */
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a8a8a8;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
